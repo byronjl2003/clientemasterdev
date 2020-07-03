@@ -74,7 +74,7 @@ export const AddMensaje = ({setrequest2State,setMessageRequest2}) => {
           body: JSON.stringify({ msg: inputValue,tags:tag })
 
       };
-      let url = `http://localhost:3001/message`;
+      let url = `http://34.70.104.102:3001/message`;
       console.log("URL",url);
       fetch(url, requestOptions)
       .then(async response => {

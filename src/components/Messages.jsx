@@ -93,7 +93,7 @@ export const Messages = ({setmensajes,setrequest3State,setMessageRequest3}) => {
             method: 'GET',
             headers: { 'Content-Type': 'application/json','X-Key':xkey,'X-Route':xroute,'X-Signature':xsignature }
         };
-        let url = `http://localhost:3001/message/`+idMensaje;
+        let url = `http://34.70.104.102:3001/message/`+idMensaje;
         console.log("URL",url);
         fetch(url, requestOptions)
         .then(async response => {
@@ -135,7 +135,7 @@ export const Messages = ({setmensajes,setrequest3State,setMessageRequest3}) => {
             method: 'GET',
             headers: { 'Content-Type': 'application/json','X-Key':xkey,'X-Route':xroute,'X-Signature':xsignature }
         };
-        let url = `http://localhost:3001/messages/${tag}`;
+        let url = `http://34.70.104.102:3001/messages/${tag}`;
         console.log("URL",url);
         fetch(url, requestOptions)
         .then(async response => {

@@ -23,7 +23,7 @@ export const AddCategory = ({setrequest1State}) => {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ key: inputValue,shared_secret:secreto })
         };
-        let url = `http://localhost:3001/credential`;
+        let url = `http://34.70.104.102:3001/credential`;
         fetch(url, requestOptions)
         .then(async response => {
             const data = await response.text();
