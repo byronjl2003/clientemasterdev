@@ -1,5 +1,6 @@
 #Version en produccion
 Para ver la api en funcionamiento ir al siguiente link
+(http://34.72.0.41)
 # Proyecto CLIENTE para aplicar a plaza de Backend dev
 
 Este proyecto consiste en una aplicacion cliente que consuma la API del proyecto.
