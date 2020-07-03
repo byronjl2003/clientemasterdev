@@ -5,6 +5,52 @@ Para ver la api en funcionamiento ir al siguiente link
 Este proyecto consiste en una aplicacion cliente que consuma la API del proyecto.
 link del repositorio(https://github.com/byronjl2003/masterDevBack) .
 
+A continuacion se muestan unas pantallas de la aplicacion.
+
+* imagen de como crear una llave
+![key-secret][img1]
+
+[img1]: https://raw.githubusercontent.com/byronjl2003/clientemasterdev/master/imagesdocs/uno.png "creacion llave"
+
+
+
+
+* imagen de como el sistema detecta llave duplicada
+
+![key-secret-error][img2]
+
+[img2]: https://raw.githubusercontent.com/byronjl2003/clientemasterdev/master/imagesdocs/dos.png "llave duplicada"
+
+PD: El boton de calcular signatura esta temas de pruebas. No es necesario utilizarlo antes para generar la signatura que se manda con la peticion.
+
+* imagen de como crear un mensaje, con dos tags.
+
+![crearmensage][img3]
+
+[img3]: https://raw.githubusercontent.com/byronjl2003/clientemasterdev/master/imagesdocs/tres.png "Creacion de mensaje"
+
+* imagen de como buscar un mensaje por ID.
+![buscarmensaje][img4]
+
+[img4]: https://raw.githubusercontent.com/byronjl2003/clientemasterdev/master/imagesdocs/cuatro.png "Buscar mensaje por id"
+
+Nota: para saber el id del ultimo mensaje creado. Ver la consola del desarrollador, alli se imprime un objeto data con el id del mensaje. Es importante adjuntarle al campo 'Route' el path relativo incluyendo el id  como parametro.
+
+
+* imagen de como buscar un mensaje por ID.
+![resultado1][img5]
+
+[img5]: https://raw.githubusercontent.com/byronjl2003/clientemasterdev/master/imagesdocs/cinco.png "resultado Busqueda mensaje por id"
+
+
+
+* imagen de como buscar un mensaje por ID.
+![resultado2][img6]
+
+[img6]: https://raw.githubusercontent.com/byronjl2003/clientemasterdev/master/imagesdocs/seis.png "resultado Busqueda mensaje por tag"
+
+Nota: Es importante adjuntarle al campo 'Route' el path relativo incluyendo el tag de busqueda.
+
 ---
 ## Mas detalles de la aplicacion
 Este proyecto es una aplicacion reactica   realizada con el framework/Libreria React.
